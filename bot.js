@@ -1,11 +1,11 @@
-import {Bot} from "grammy";
-import {StatelessQuestion} from "@grammyjs/stateless-question";
+const {Bot} = require("grammy");
+const {StatelessQuestion} = require("@grammyjs/stateless-question");
 
-export const {
+const {
     TELEGRAM_BOT_TOKEN: token,
 } = process.env;
 
-export const bot = new Bot(token);
+const bot = new Bot(token);
 
 const test = new StatelessQuestion("test",
     async (ctx, additionalState) => void await ctx.reply([
@@ -21,3 +21,5 @@ const text = "Send any message to test stateless-question plugin";
 bot.on("message:text", ctx =>
     test.replyWithMarkdown(ctx, text, new Date().toISOString())
 );
+
+exports.bot = bot;
