@@ -17,12 +17,12 @@
   },
   "dependencies": {
     "@grammyjs/stateless-question": "^3.0.1",
-    "grammy": "npm:@ponomarevlad/grammy@1.16.2-vercel-edge",
+    "grammy": "npm:@ponomarevlad/grammy@1.16.2-vercel-edge.1",
     "firebase-admin": "^11.5.0",
     "firebase-functions": "^4.2.0"
   },
   "overrides": {
-    "grammy": "npm:@ponomarevlad/grammy@1.16.2-vercel-edge"
+    "grammy": "npm:@ponomarevlad/grammy@1.16.2-vercel-edge.1"
   },
   "engines": {
     "node": "16"
