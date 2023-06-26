@@ -12,10 +12,10 @@
   },
   "dependencies": {
     "@grammyjs/stateless-question": "^3.0.1",
-    "grammy": "npm:@ponomarevlad/grammy@1.16.2-vercel-edge"
+    "grammy": "npm:@ponomarevlad/grammy@1.16.2-vercel-edge.1"
   },
   "overrides": {
-    "grammy": "npm:@ponomarevlad/grammy@1.16.2-vercel-edge"
+    "grammy": "npm:@ponomarevlad/grammy@1.16.2-vercel-edge.1"
   },
   "engines": {
     "node": "^18.0.0"
