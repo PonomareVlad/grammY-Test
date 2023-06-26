@@ -1,9 +1,7 @@
 import {Bot} from "grammy";
 import {StatelessQuestion} from "@grammyjs/stateless-question";
 
-export const {
-    TELEGRAM_BOT_TOKEN: token,
-} = process.env;
+export const token = Deno.env.get("TELEGRAM_BOT_TOKEN");
 
 export const bot = new Bot(token);
 

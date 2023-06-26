@@ -1,0 +1,9 @@
+{
+  "imports": {
+    "grammy": "https://ghc.deno.dev/PonomareVlad/grammY@exports-for-vercel-edge/src/mod.ts",
+    "@grammyjs/": "https://esm.sh/@grammyjs/"
+  },
+  "tasks": {
+    "dev": "deno run --watch mod.js"
+  }
+}
