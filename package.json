@@ -13,9 +13,9 @@
   },
   "dependencies": {
     "@grammyjs/stateless-question": "^3.0.1",
-    "grammy": "npm:@ponomarevlad/grammy@1.16.2-vercel-edge.1"
+    "grammy": "npm:@ponomarevlad/grammy@1.17.0-vercel-edge"
   },
   "overrides": {
-    "grammy": "npm:@ponomarevlad/grammy@1.16.2-vercel-edge.1"
+    "grammy": "npm:@ponomarevlad/grammy@1.17.0-vercel-edge"
   }
 }
