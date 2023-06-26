@@ -4,6 +4,14 @@
   "name": "grammy-exports-test",
   "funding": "https://PonomareVlad.ru/donate",
   "author": "Vladislav Ponomarev <PonomareVlad@users.noreply.github.com> (https://PonomareVlad.ru)",
+  "private": true,
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "3.1.1"
+  },
   "dependencies": {
     "@grammyjs/stateless-question": "^3.0.1",
     "grammy": "npm:@ponomarevlad/grammy@1.16.2-vercel-edge"
