@@ -1,14 +1,13 @@
 {
   "license": "MIT",
-  "main": "index.js",
   "name": "grammy-exports-test",
   "funding": "https://PonomareVlad.ru/donate",
   "author": "Vladislav Ponomarev <PonomareVlad@users.noreply.github.com> (https://PonomareVlad.ru)",
   "dependencies": {
     "@grammyjs/stateless-question": "^3.0.1",
-    "grammy": "npm:@ponomarevlad/grammy@1.16.2-vercel-edge"
+    "grammy": "npm:@ponomarevlad/grammy@1.16.2-vercel-edge.1"
   },
   "overrides": {
-    "grammy": "npm:@ponomarevlad/grammy@1.16.2-vercel-edge"
+    "grammy": "npm:@ponomarevlad/grammy@1.16.2-vercel-edge.1"
   }
 }
