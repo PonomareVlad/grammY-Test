@@ -5,6 +5,11 @@
   "author": "Vladislav Ponomarev <PonomareVlad@users.noreply.github.com> (https://PonomareVlad.ru)",
   "dependencies": {
     "@grammyjs/stateless-question": "^3.0.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
     "grammy": "^1.17.1"
+  },
+  "scripts": {
+    "start": "node --watch -r dotenv/config index.mjs"
   }
 }
