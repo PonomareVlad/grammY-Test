@@ -5,6 +5,7 @@
   "author": "Vladislav Ponomarev <PonomareVlad@users.noreply.github.com> (https://PonomareVlad.ru)",
   "dependencies": {
     "@grammyjs/stateless-question": "^3.0.1",
-    "grammy": "^1.17.2"
+    "grammy": "^1.17.2",
+    "grammy-test": "PonomareVlad/grammY-Test#vercel-edge-tla"
   }
 }
