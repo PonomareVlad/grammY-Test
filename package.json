@@ -1,10 +1,10 @@
 {
   "license": "MIT",
-  "name": "grammy-exports-test",
+  "name": "grammy-test",
   "funding": "https://PonomareVlad.ru/donate",
   "author": "Vladislav Ponomarev <PonomareVlad@users.noreply.github.com> (https://PonomareVlad.ru)",
   "dependencies": {
     "@grammyjs/stateless-question": "^3.0.1",
-    "grammy": "^1.17.1"
+    "grammy": "^1.17.2"
   }
 }
