@@ -1,4 +1,5 @@
-import {Bot} from "grammy";
+import {Bot, session} from "grammy";
+import {conversations} from "@grammyjs/conversations";
 import {StatelessQuestion} from "@grammyjs/stateless-question";
 
 export const {
@@ -14,7 +15,9 @@ const test = new StatelessQuestion("test",
     ].join("\r\n"))
 );
 
+bot.use(session({initial: () => ({})}));
 bot.use(test.middleware());
+bot.use(conversations());
 
 const text = "Send any message to test stateless-question plugin";
 

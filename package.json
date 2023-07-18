@@ -4,7 +4,11 @@
   "funding": "https://PonomareVlad.ru/donate",
   "author": "Vladislav Ponomarev <PonomareVlad@users.noreply.github.com> (https://PonomareVlad.ru)",
   "dependencies": {
+    "@grammyjs/conversations": "^1.1.2",
     "@grammyjs/stateless-question": "^3.0.1",
     "grammy": "^1.17.2"
+  },
+  "overrides": {
+    "o-son": "npm:@ponomarevlad/o-son@1.0.1-web.1"
   }
 }
